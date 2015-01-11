@@ -1,0 +1,93 @@
+﻿html {
+    background-image: url('image/encryption.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+body {
+    font-family: 'Lucida Sans' , 'Lucida Sans Regular' , 'Lucida Grande' , 'Lucida Sans Unicode' , Geneva, Verdana, sans-serif;
+    
+}
+form {
+    position:absolute;
+    border-radius:10px;
+    color:rgb(48, 46, 46);
+    width: 320px;
+    left: 40%;
+    top: 30%;
+    height: 300px;
+    background:rgba(220, 220, 220,0.95);
+}
+
+a:link,a:visited {
+    position: absolute;
+    color:rgb(255,255,255);
+    background:rgb(0,0,0);
+    padding:5px;
+    top: 80%;
+    left: 40%;
+    text-decoration:none;
+    border-radius: 5px
+}
+a:active {
+    position: absolute;
+    color:rgb(255,255,255);
+    background:rgb(0, 52, 92);
+    padding:5px;
+    
+    text-decoration:none;
+    border-radius: 5px
+    }
+a:hover {
+    position: absolute;
+    color:rgb(255,255,255);
+    background:rgb(41, 77, 183);
+    padding:5px;
+    
+    
+    text-decoration:none;
+    border-radius: 5px
+    }
+
+input[type="text"], input[type="password"] {
+    position: absolute;
+    width: auto;
+    height:1.5em;
+    border:2px solid rgb(17, 24, 37);
+    border-radius:7px;
+    font-family: 'Lucida Sans' , 'Lucida Sans Regular' , 'Lucida Grande' , 'Lucida Sans Unicode' , Geneva, Verdana, sans-serif;
+    
+}
+
+input[type="text"]{
+    top: 35%;
+    width: 300px;
+    margin-left:5px;
+    margin-top: 12px;
+    
+}
+input[type="text"]:focus,input[type="password"]:focus{ 
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
+input[type="password"]{
+    top: 60%;
+    width: 300px;
+    margin-left:5px;
+    
+}
+.text {
+    position:absolute;
+    top: 28%;
+    
+    margin-left:5px;
+    
+}
+.text1  {
+    position:absolute;
+    top: 50%;
+    
+    margin-left:5px;
+}

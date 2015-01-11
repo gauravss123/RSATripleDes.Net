@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <p style="background-position: center; font-family: arial, Helvetica, sans-serif; font-size: xx-large; font-weight: bold; font-style: inherit; font-variant: normal; color: #ffffff; background-image: url('/minorproject/image/header.gif'); background-repeat: repeat-x; background-attachment: fixed; text-align: center;">
+        Implementation Of RSA And Triple DES</p>
+    <p>
+        &nbsp;</p>
+    <form id="form1" runat="server">
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"/>    
+        
+    </form>
+    </body>
+    
+</html>

@@ -1,0 +1,30 @@
+﻿#enc {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: url('image/MenuBack.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 50px;
+}
+#dec{
+    position: absolute;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    top:50px;
+    left:0px;
+    background: url('image/MenuBack.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    height:50px;
+}
+#form1 {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
